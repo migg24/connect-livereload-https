@@ -1,5 +1,5 @@
 
-connect-livereload
+connect-livereload-https
 ==================
 connect middleware for adding the livereload script to the response.
 no browser plugin is needed.
@@ -15,7 +15,7 @@ if you are happy with a browser plugin, then you don't need this middleware.
 install
 =======
 ```bash
-npm install connect-livereload --save-dev
+npm install connect-livereload-https --save-dev
 ```
 
 use
