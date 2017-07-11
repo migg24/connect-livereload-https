@@ -23,7 +23,7 @@ module.exports = function livereload(opt) {
   var plugins = opt.plugins || [];
 
   function snippet(host) {
-    var src = opt.src || '//' + host + ':' + port + '/livereload.js?snipver=1';
+    var src = opt.src || 'https://' + host + ':' + port + '/livereload.js?snipver=1';
     return [src].concat(plugins).map(function(source) {
       return '<script src="' + source + '" async="" defer=""></script>';
     }).join('');
